@@ -1,4 +1,4 @@
-# TIMELINE OF TRAGEDY: UNDERSTANDING U.S. MASS KILLINGS FROM 2006 TO 2024
+ # TIMELINE OF TRAGEDY: UNDERSTANDING U.S. MASS KILLINGS FROM 2006 TO 2024
 
 ![image](https://github.com/user-attachments/assets/62125257-00ea-4891-b556-e76bc1ffb8dc)
 
@@ -30,18 +30,33 @@ This analysis is based on data from The Associated Press/USA TODAY/Northeastern 
 
 The dataset examined encompasses 612 documented incidents spanning 2006 to 2024, resulting in 5,262 total casualties. Each incident was verified through multiple independent sources to ensure data reliability and validity.
 
-Key data dimensions analyzed:
+**Key data dimensions analyzed:**
 
-* Temporal Patterns: Year-over-year trends and daily occurrence patterns
-* Geographic Distribution: State-level incident concentrations
-* Incident Methodology: Primary methods employed in attacks
-* Perpetrator Demographics: Gender and Racial Characteristics
-* Incident Outcomes: Legal consequences and case resolutions
-* Casualty Impact: Total victims affected across all incidents
+* **Temporal Patterns:** Year-over-year trends and daily occurrence patterns
+* **Geographic Distribution:** State-level incident concentrations
+* **Incident Methodology**: Primary methods employed in attacks
+* **Perpetrator Demographics:** Gender and Racial Characteristics
+* **Incident Outcomes:** Legal consequences and case resolutions
+* **Casualty Impact:** Total victims affected across all incidents
 
-  
+## TOOLS AND TECHNOLOGIES
+Primary Analysis Platform
+Microsoft Excel served as the primary analysis platform for this comprehensive study, leveraging its robust data manipulation, statistical analysis, and visualization capabilities.
+Excel Packages and Features Utilized
+* **Power Query:** For automated data transformation and cleaning processes
+* **Pivot Tables:** For dynamic data summarization and cross-tabulation analysis
+* **Chart and Visualization Tools:** For creating comprehensive visual representations of trends and patterns
+* **Statistical Functions:** Including COUNTIF, SUMIF, AVERAGE, and advanced array formulas for demographic analysis
+* **Data Validation Tools:** For ensuring data integrity during the cleaning process
+* **Conditional Formatting: **For highlighting patterns and anomalies in the dataset
+* **Filter and Sort Functions:** For systematic data exploration and categorization
+
 ## METHODOLOGY
-The analysis employed systematic data categorization and statistical examination to identify meaningful patterns. Incidents were classified across multiple dimensions, including temporal occurrence, geographic location, methodology, and perpetrator characteristics. Trend analysis was conducted to identify year-over-year patterns, while demographic analysis revealed important characteristics of perpetrators and incident distributions.
+The analysis employed systematic data integration, cleaning, and statistical examination to identify meaningful patterns across temporal, geographic, and demographic dimensions.
+Data Integration: The original data was distributed across four separate datasets. I created a unique incident identifier as the primary key to merge incident details, perpetrator demographics, methodology, and legal outcomes without data loss.
+
+* **Data Cleaning:** Standardized geographic and temporal formats, handled missing values through "Unknown" categories, removed duplicates, and validated data consistency across merged datasets.
+* **Analysis Approach:** Used Excel's advanced features, including Pivot Tables, statistical functions, and visualization tools to conduct trend analysis, demographic categorization, and pattern identification across all key variables.
 
 ## PRE-ANALYSIS
 Before diving into the detailed chart analysis, I conducted a crucial pre-analysis phase to establish the framework for understanding mass violence patterns.
